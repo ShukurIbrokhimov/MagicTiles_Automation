@@ -23,5 +23,3 @@ while not keyboard.is_pressed('s'):
         click(1350, 900)
     if pyautogui.pixel(1525, 900)[0] == 0:
         click(1525, 900)
-
-print(1)
